@@ -1,0 +1,138 @@
+
+html, body {
+    height: 98%;
+    padding: 0;
+    width: 98%;
+    margin: 0.2%;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+a {
+    color: #336699;
+}
+
+#header {
+    background: #ff7f7f; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff7f7f 0%, #7f0000 31%, #330000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff7f7f), color-stop(31%, #7f0000), color-stop(100%, #330000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ff7f7f 0%, #7f0000 31%, #330000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ff7f7f 0%, #7f0000 31%, #330000 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #ff7f7f 0%, #7f0000 31%, #330000 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff7f7f', endColorstr = '#330000', GradientType = 0); /* IE6-9 */
+    background: linear-gradient(top, #ff7f7f 0%, #7f0000 31%, #330000 100%); /* W3C */
+    /*border-left: 1px solid #330000;
+    border-right: 1px solid #330000;
+    border-top: 1px solid #330000;*/
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 55px;
+    margin: 0;
+}
+
+.soria .dojoxExpandoTitle {
+    background: -moz-linear-gradient(center top, #ff7f7f 0%, #7f0000 31%, #330000 100%) repeat scroll 0 0 transparent;
+}
+
+#title {
+    color: #b1c7d2 ;
+    font-size: 16pt;
+    font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+	
+}
+
+#subtitle {
+    color: #45484D;
+    font-size: small;
+    padding-left: 15px;
+    text-align: left;
+}
+
+#rightPane {
+    background-color: #fff8f5;
+    color: #004460;
+    margin: 0;
+    padding: 0;
+    width: 230px;
+}
+
+#rightPane, #flip {
+    padding: 5px;
+    text-align: left;
+    background-color: #fff8f5;
+    border: solid 1px #c3c3c3;
+}
+
+#mapCanvas {
+    /*border-bottom: 1px solid #330000;*/
+    border-bottom-left-radius: 4px;
+    /*border-left: 1px solid #330000;*/
+    margin: 0;
+    padding: 0;
+	    height: -55px;
+
+}
+
+.roundedCorner {
+    background-color: #FFFFFF;
+    border: 1px solid #330000;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#clearButton {
+    bottom: 5px;
+    color: #45484D;
+    cursor: pointer;
+    left: 5px;
+    padding: 4px;
+    position: absolute;
+    z-index: 100;
+}
+
+#clearButton a {
+    text-decoration: none;
+}
+
+#status {
+    font-size: 12px;
+}
+
+#file-browser {
+    display: none;
+}
+
+
+#toggle {
+    top: 5px;
+    color: #45484D;
+    cursor: pointer;
+    right: 5px;
+    padding: 4px;
+    position: absolute;
+    z-index: 100;
+}
+
+#rightPaneUn {
+    background-color: #fff8f5;
+	top: 80px;
+	right: 3px;
+    /*border-bottom: 1px solid #330000;
+    border-bottom-right-radius: 4px;
+    border-left: 1px solid #330000;
+    border-right: 1px solid #330000;*/
+    color: #004460;
+    margin: 0px;
+    padding: 0px;
+    width: 240px;
+	position: absolute;
+}
